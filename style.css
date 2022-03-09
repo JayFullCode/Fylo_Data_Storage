@@ -45,6 +45,7 @@ body{
     border-radius: 15px 100px 15px 15px;
 
     margin-bottom: 1em;
+    width: 80%;
 }
 
 .menu-icons{
@@ -85,23 +86,25 @@ body{
 
     padding: 10px 40px;
     border-radius: 15px;
-    
+
+    width: 80%;
+
 }
 
-.storage-container > p{
-    width: 100%;
-    text-align: center;
+.storage-container__used{
+    margin-top: 3.5em;
 }
 
 .progress-bar{
     width: 100%;
 
     flex: 1 1 0;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
+    margin: 0;
 }
 
 .progress-bar__container{
@@ -112,7 +115,8 @@ body{
     display: flex;
     align-items: center;
 
-    margin-bottom: .7em;
+    margin-bottom: .4em;
+
 }
 
 .progress-bar__container--gradient{
@@ -144,7 +148,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    margin: 0;
 }
 
 .progress-bar__size p{
@@ -153,4 +157,30 @@ body{
 
 .progress-bar__size--max{
     text-align: right;
+}
+
+.storage-container__giga{
+    background-color: white;
+    color: black;
+
+    margin: 0;
+    padding: 15px 10px;
+    width: 65%;
+
+    position: relative;
+    top: 10px;
+
+    text-align: center;
+
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.storage-container__giga span{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-right: .2em;
 }
