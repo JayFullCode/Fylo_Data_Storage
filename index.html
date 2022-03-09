@@ -38,21 +38,25 @@
     </div>
 
     <div class="storage-container">
-      <p class="storage-container__used">You’ve used 815 GB of your storage</p>
+      
+      <p class="storage-container__used"> You’ve used 815 GB of your storage </p>
+
+      <div class="storage-container__left">185 GB LEFT
+        <div class="storage-container__triangle"></div>
+      </div>
+      
 
       <div class="progress-bar">
-        <div class="progress-bar__container">
-          <div class="progress-bar__container--gradient">
-            <div class="progress-bar__container--bubble"></div>
-          </div>
+        <div class="progress-bar__gradient">
+          <div class="progress-bar__bubble"></div>
         </div>
-        <div class="progress-bar__size">
-          <p class="progress-bar__size--min">0GB</p>
-          <p class="progress-bar__size--max">1000GB</p>
-        </div>
+        
       </div>
 
-      <p class="storage-container__giga"> <span>185</span> GB LEFT</p>
+      <div class="storage-container__size">
+        <p>0GB</p>
+        <p>1000GB</p>
+      </div>
 
     </div>
 
